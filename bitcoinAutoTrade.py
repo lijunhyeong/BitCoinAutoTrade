@@ -3,8 +3,8 @@ import pyupbit
 import datetime
 
 # upBit api-key
-access = "2r0YSd5SjfLfCgxIW6aRd36Ct6a8uNwvm8f9OgEx"
-secret = "jVY82C8vIxHgto8YXvcAoasyvXJzl9BeiKlezjgC"
+access = "myAccess_api_key"
+secret = "mySecret_api_key"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
